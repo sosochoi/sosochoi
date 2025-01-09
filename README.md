@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+
+
+
+
 <!--
 **sosochoi/sosochoi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -15,4 +19,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-explain why XZY: this is because 1, 2, 3, 4
+I am Soso, this is my first Github page!
