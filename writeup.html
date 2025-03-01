@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning Journey: From Assignment 1 to Assignment 5</title>
+    <title>The Learning Journey: From Assignment 1 to Assignment 5</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,6 +28,19 @@
         h2 {
             color: #333;
         }
+        h3 {
+            color: #444;
+        }
+        ul {
+            list-style-type: square;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -38,48 +51,78 @@
 
     <section>
         <h2>Project Overview</h2>
-        <p>This repository reflects my learning progress, starting from Assignment 1 to the final project (Assignment 5). The goal is to showcase the development of skills in data cleaning, merging datasets, and applying what I have learned across multiple assignments.</p>
-        <p>In this project, I have merged a cleaned dataset with a new fake dataset and documented the merge process, including any NA values created.</p>
+        <p>This repository reflects my learning progress from <strong>Assignment 1</strong> to <strong>Assignment 5</strong>, showcasing the development of my skills in <strong>data cleaning</strong>, <strong>merging datasets</strong>, and applying what I have learned across multiple assignments. Below is a breakdown of each assignment and how it contributed to my learning:</p>
     </section>
 
     <section>
-        <h2>Assignment 1: Getting Started</h2>
-        <p>In Assignment 1 (BABI4005Assign1.md), I focused on:</p>
+        <h2>Assignment 1: Introduction to GitHub and Jupyter Notebooks</h2>
+        <p>In <strong>Assignment 1</strong>, I was introduced to <strong>GitHub</strong> and <strong>Jupyter notebooks</strong>:</p>
         <ul>
-            <li>Learning the basics of GitHub (push, pull, and other fundamental concepts).</li>
-            <li>Getting familiar with Jupyter notebooks and their functionality.</li>
+            <li><strong>GitHub</strong>: I learned how to use GitHub for version control, including how to create repositories, push and pull changes, and manage branches.</li>
+            <li><strong>Jupyter Notebooks</strong>: I became familiar with Jupyter notebooks as an environment for interactive coding and documentation.</li>
         </ul>
+        <p>This assignment laid the foundation for managing code and data, and was my first experience with using GitHub for a project.</p>
     </section>
 
     <section>
-        <h2>Assignment 4: Cleaning the Data</h2>
-        <p>In Assignment 4, I learned how to clean and preprocess datasets, focusing on:</p>
+        <h2>Assignment 4: Automating Data Cleaning with Jupyter Notebook</h2>
+        <p>In <strong>Assignment 4</strong>, I used <strong>Jupyter notebooks</strong> to automate the cleaning of a <strong>student survey dataset</strong>:</p>
         <ul>
-            <li>Identifying and handling missing data.</li>
-            <li>Standardizing data formats.</li>
-            <li>Ensuring the dataset was ready for analysis.</li>
+            <li>I explored the dataset to identify missing values and outliers.</li>
+            <li>I applied <strong>data cleaning techniques</strong> such as handling missing values, filtering out irrelevant data, and standardizing formats.</li>
+            <li>The notebook allowed me to automate the cleaning process, which made it easier to handle large datasets in a reproducible manner.</li>
         </ul>
+        <p>This assignment helped me develop a deeper understanding of <strong>data preprocessing</strong> and how to automate tasks using <strong>Python</strong> in Jupyter notebooks.</p>
     </section>
 
     <section>
-        <h2>Assignment 5: Merging the Datasets</h2>
-        <p>In Assignment 5, I applied the skills learned in previous assignments to:</p>
+        <h2>Assignment 5: Merging Datasets and Handling Missing Data</h2>
+        <p>In <strong>Assignment 5</strong>, I applied the skills from <strong>Assignment 4</strong> to merge the <strong>cleaned student survey dataset</strong> from <strong>Assignment 4</strong> with a new fake dataset:</p>
         <ul>
-            <li>Merge the cleaned dataset with a fake salary dataset.</li>
-            <li>Document the merge process and the NA values created during the merge.</li>
-            <li>Apply data cleaning, dataset merging, and handling missing data concepts.</li>
+            <li>The fake dataset, <strong>2024 salary by age group</strong>, was generated to simulate salary data for different age groups.</li>
+            <li>I merged these two datasets to create a comprehensive dataset that could be used for analysis.</li>
+            <li>I documented the merging process and handled <strong>NA values</strong> that were created during the merge.</li>
         </ul>
+        <p>This assignment allowed me to demonstrate my ability to merge multiple datasets and manage missing data, which is a critical skill in <strong>data analysis</strong>.</p>
     </section>
 
     <section>
-        <h2>Final Thoughts on the Learning Progress</h2>
-        <p>Each assignment built upon the skills I learned in the previous ones:</p>
+        <h2>Conclusion</h2>
+        <p>Throughout these assignments, I have built upon my knowledge and skills:</p>
         <ul>
-            <li>Assignment 1 helped me get familiar with GitHub and Jupyter notebooks.</li>
-            <li>Assignment 4 allowed me to clean and preprocess data effectively.</li>
-            <li>Assignment 5 demonstrated my ability to merge datasets and handle missing data (NA values) introduced during the merge.</li>
+            <li><strong>Assignment 1</strong> introduced me to <strong>GitHub</strong> and <strong>Jupyter notebooks</strong>, which are essential tools for managing projects and coding.</li>
+            <li><strong>Assignment 4</strong> taught me how to clean and preprocess data using <strong>Python</strong> and <strong>Jupyter notebooks</strong>.</li>
+            <li><strong>Assignment 5</strong> gave me the opportunity to apply data cleaning techniques to merge datasets and handle real-world issues like missing data.</li>
+        </ul>
+        <p>This progression has helped me develop a strong foundation in <strong>data management</strong> and <strong>analysis</strong> that will be valuable for future projects.</p>
+    </section>
+
+    <section>
+        <h2>Project Structure</h2>
+        <p>The project contains the following files and folders:</p>
+        <ul>
+            <li><strong>BABI4005Assign1.md</strong>: The first assignment documenting the initial project setup.</li>
+            <li><strong>Data Folder</strong>:
+                <ul>
+                    <li>2024_salarybyagegroup_data.csv: Fake dataset generated to merge with the cleaned survey dataset.</li>
+                    <li>clean_survey_2025-02-06_assign4_sosochoi.csv: Cleaned dataset from <strong>Assignment 4</strong>.</li>
+                </ul>
+            </li>
+            <li><strong>Clean_Data Folder</strong>: Stores the cleaned dataset (clean_survey_2025-02-06_assign4_sosochoi.csv).</li>
+            <li><strong>Scripts Folder</strong>:
+                <ul>
+                    <li>gen_fake_data.ipynb: Generates the fake salary dataset.</li>
+                    <li>Assign5_Merge_dataset.ipynb: Merges the cleaned survey dataset with the fake dataset and explains the merge process.</li>
+                </ul>
+            </li>
+            <li><strong>Documents Folder</strong>: Contains a Word document with a screenshot of the local version of the project.</li>
+            <li><strong>Results Folder</strong>: Contains the output file merged_student_data.csv, generated after executing the <strong>Assign5_Merge_dataset.ipynb</strong> script.</li>
         </ul>
     </section>
+
+    <footer>
+        <p>Check out my GitHub repository: <a href="https://github.com/sosochoi/sosochoi.git" target="_blank" style="color: white;">sosochoi/sosochoi</a></p>
+    </footer>
 
 </body>
 </html>
