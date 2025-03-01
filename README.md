@@ -1,8 +1,19 @@
-#Assignment 5: A New Branch
--Establish a proper file structure for the project with the following folders:
--Merge our cleaned dataset with a new fake dataset, and documented the merge type and any NA values created.
+The Learning Journey: From Assignment 1 to Assignment 5
 
-1. Data Folder: This folder contains the raw dataset, 2024_salarybyagegroup_data.csv, which is a fake dataset generated for merging with the clean_survey_2025-02-06_assign4_sosochoi dataset.
+This repository reflects my learning progress, including Assignment 1 and the final project (Assignment 5). The goal is to showcase the development of skills in data cleaning, merging datasets, and applying what I have learned across multiple assignments. 
+
+In this project, I have merged a cleaned dataset with a new fake dataset and documented the merge process, including any NA values created.
+
+Initially:
+-Main branch (Assignment 1) contains: BABI4005Assign1.md
+-A New Branch (Assignment 5) contains: Documents Folder with screen_grab.docx, Scripts Folder with Assign5_Merge_dataset.ipynb and gen_fake_data.ipynb.
+
+
+After Merged, main branch contains all the files:
+1. Data Folder: 
+-2024_salarybyagegroup_data.csv: A fake dataset created to merge with the cleaned survey dataset.
+-clean_survey_2025-02-06_assign4_sosochoi.csv: The cleaned dataset from Assignment 4, which will be merged with the fake dataset.
+
 
 2. Clean_Data Folder: This folder will store the cleaned dataset, clean_survey_2025-02-06_assign4_sosochoi, which will be merged with the 2024_salarybyagegroup_data.csv dataset.
 
